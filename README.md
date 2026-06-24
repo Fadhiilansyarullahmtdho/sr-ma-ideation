@@ -2,9 +2,7 @@
 
 Sebuah [Claude Skill](https://docs.claude.com) untuk **menggali ide topik *systematic review* (SR) dan *meta-analysis* (MA)** yang novel dan dapat dipertahankan, lalu merekomendasikan **satu judul + PICO + vonis kelayakan**. Klaim *novelty* ditriangulasi lewat **PubMed**, **PROSPERO**, dan **Epistemonikos/Cochrane**.
 
-> Skill ini **hanya untuk ideasi**. Ia tidak menulis manuskrip SR/MA, tidak membuat protokol/PRISMA, tidak memilih instrumen *risk-of-bias*, dan tidak menjalankan analisis statistik — itu tahap *conduct* setelah ideasi.
-
-Diadaptasi dari prompt **"SR MA by DFA"** karya dr. Fadhiil Ansyarullah Murtadho ([@Fadhiilansyarullahmtdho](https://github.com/Fadhiilansyarullahmtdho)).
+> Skill ini **hanya untuk ideasi**. 
 
 ---
 
