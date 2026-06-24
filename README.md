@@ -47,22 +47,15 @@ Cukup minta dalam bahasa natural, mis.:
 
 Claude akan menjalankan pemetaan PubMed, triangulasi novelty, lalu mengembalikan judul + PICO + vonis kelayakan beserta tabel ringkasan.
 
-## Contoh hasil
-
-Lihat [`examples/genetika-leukemia-anak.md`](./examples/genetika-leukemia-anak.md) untuk satu run penuh. Ringkasnya: skill menolak mengecap "novel" pertanyaan *NUDT15 → toksisitas 6-MP pada ALL* (sudah ada MA Du dkk. 2024 + registrasi PROSPERO), lalu mengarahkan ke celah *clinical utility* yang masih terbuka sambil jujur menyatakan keterbatasan feasibility.
-
 ## Struktur repo
 
 ```
 .
 ├── README.md
 ├── LICENSE
-├── CHANGELOG.md
 ├── sr-ma-ideation.skill        # paket siap pasang
-├── skill/
-│   └── SKILL.md                # sumber skill
-└── examples/
-    └── genetika-leukemia-anak.md
+└── skill/
+    └── SKILL.md                # sumber skill
 ```
 
 ## Batasan
@@ -75,4 +68,4 @@ Diadaptasi dari prompt "SR MA by DFA" oleh dr. Fadhiil Ansyarullah Murtadho. Lih
 
 ## Kontribusi
 
-Issue dan pull request dipersilakan — terutama penambahan kasus contoh di `examples/` dan penyempurnaan string pencarian.
+Issue dan pull request dipersilakan — terutama penyempurnaan string pencarian dan alur penilaian novelty/feasibility.
